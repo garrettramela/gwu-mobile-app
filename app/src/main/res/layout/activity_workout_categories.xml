@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".Workout_Categories">
+
+    <ImageButton
+        android:id="@+id/nutrition"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="41dp"
+        android:layout_marginBottom="75dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/mindfulnessAndMediation"
+        app:layout_constraintTop_toBottomOf="@+id/sports"
+        app:srcCompat="@drawable/nutrition_6"
+        android:contentDescription="TODO" />
+
+    <ImageButton
+        android:id="@+id/cardio"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="41dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginBottom="17dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@+id/mindfulnessAndMediation"
+        app:layout_constraintEnd_toStartOf="@+id/sports"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/stretchesAndWarmups"
+        app:srcCompat="@drawable/cardio_3"
+        android:contentDescription="TODO" />
+
+    <ImageButton
+        android:id="@+id/sports"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="41dp"
+        android:layout_marginBottom="18dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@+id/nutrition"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/cardio"
+        app:layout_constraintTop_toBottomOf="@+id/strengthTraining"
+        app:srcCompat="@drawable/sports_4"
+        android:contentDescription="TODO" />
+
+    <ImageButton
+        android:id="@+id/mindfulnessAndMediation"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="41dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginBottom="76dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/nutrition"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardio"
+        app:srcCompat="@drawable/mindfulness_and_mediation_5"
+        android:contentDescription="TODO" />
+
+    <ImageButton
+        android:id="@+id/stretchesAndWarmups"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="41dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginBottom="18dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@+id/cardio"
+        app:layout_constraintEnd_toStartOf="@+id/strengthTraining"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pickACategory"
+        app:srcCompat="@drawable/stretches_and_warm_ups_1"
+        android:contentDescription="TODO" />
+
+    <ImageButton
+        android:id="@+id/strengthTraining"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="170dp"
+        android:layout_marginEnd="41dp"
+        android:layout_marginBottom="18dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@+id/sports"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/stretchesAndWarmups"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/strength_training_2"
+        android:contentDescription="TODO" />
+
+    <TextView
+        android:id="@+id/pickACategory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="123dp"
+        android:layout_marginBottom="28dp"
+        android:text="What Do You Want To Work On Today?"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/stretchesAndWarmups"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

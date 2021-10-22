@@ -16,7 +16,7 @@
         tools:layout_editor_absoluteY="0dp" >
 
         <ImageButton
-            android:id="@+id/wrktStartLogo"
+            android:id="@+id/wrktStartLogoButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:contentDescription="@string/get_started_with_wrkt"

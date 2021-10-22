@@ -1,4 +1,11 @@
 <resources>
-    <string name="app_name">gwu-mobile-apps</string>
-    <string name="get_started_with_wrkt">Get Started with WRKT</string>
+    <string name="app_name">WRKT</string>
+    <string name="get_started_with_wrkt">Let\'s Get Started</string>
+    <string name="mainScreenWelcome">What Do You Want To Work Today?</string>
+    <string name="nutritionCategory">WRKT Nutrition Category</string>
+    <string name="sportsCategory">WRKT Sports Category</string>
+    <string name="cardioCategory">WRKT Cardio Category</string>
+    <string name="stretchesAndWarmUpsCategory">WRKT Stretches and Warm-Ups Category</string>
+    <string name="strengthTrainingCategory">WRKT Strength Training Category</string>
+    <string name="mindfulnessAndMeditationCategory">WRKT Mindfulness and Meditation Category</string>
 </resources>

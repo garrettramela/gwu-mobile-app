@@ -4,113 +4,110 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/black"
+    android:background="@color/pastelRed"
     tools:context=".Workout_Categories">
-
-    <ImageButton
-        android:id="@+id/nutrition"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginEnd="41dp"
-        android:layout_marginBottom="75dp"
-        android:adjustViewBounds="true"
-        android:scaleType="centerInside"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/mindfulnessAndMediation"
-        app:layout_constraintTop_toBottomOf="@+id/sports"
-        app:srcCompat="@drawable/nutrition_6"
-        android:contentDescription="TODO" />
-
-    <ImageButton
-        android:id="@+id/cardio"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginStart="41dp"
-        android:layout_marginEnd="29dp"
-        android:layout_marginBottom="17dp"
-        android:adjustViewBounds="true"
-        android:scaleType="centerInside"
-        app:layout_constraintBottom_toTopOf="@+id/mindfulnessAndMediation"
-        app:layout_constraintEnd_toStartOf="@+id/sports"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/stretchesAndWarmups"
-        app:srcCompat="@drawable/cardio_3"
-        android:contentDescription="TODO" />
-
-    <ImageButton
-        android:id="@+id/sports"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginEnd="41dp"
-        android:layout_marginBottom="18dp"
-        android:adjustViewBounds="true"
-        android:scaleType="centerInside"
-        app:layout_constraintBottom_toTopOf="@+id/nutrition"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/cardio"
-        app:layout_constraintTop_toBottomOf="@+id/strengthTraining"
-        app:srcCompat="@drawable/sports_4"
-        android:contentDescription="TODO" />
-
-    <ImageButton
-        android:id="@+id/mindfulnessAndMediation"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginStart="41dp"
-        android:layout_marginEnd="29dp"
-        android:layout_marginBottom="76dp"
-        android:adjustViewBounds="true"
-        android:scaleType="centerInside"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/nutrition"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/cardio"
-        app:srcCompat="@drawable/mindfulness_and_mediation_5"
-        android:contentDescription="TODO" />
-
-    <ImageButton
-        android:id="@+id/stretchesAndWarmups"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginStart="41dp"
-        android:layout_marginEnd="29dp"
-        android:layout_marginBottom="18dp"
-        android:adjustViewBounds="true"
-        android:scaleType="centerInside"
-        app:layout_constraintBottom_toTopOf="@+id/cardio"
-        app:layout_constraintEnd_toStartOf="@+id/strengthTraining"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/pickACategory"
-        app:srcCompat="@drawable/stretches_and_warm_ups_1"
-        android:contentDescription="TODO" />
-
-    <ImageButton
-        android:id="@+id/strengthTraining"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginTop="170dp"
-        android:layout_marginEnd="41dp"
-        android:layout_marginBottom="18dp"
-        android:adjustViewBounds="true"
-        android:scaleType="centerInside"
-        app:layout_constraintBottom_toTopOf="@+id/sports"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/stretchesAndWarmups"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/strength_training_2"
-        android:contentDescription="TODO" />
 
     <TextView
         android:id="@+id/pickACategory"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="123dp"
-        android:layout_marginBottom="28dp"
-        android:text="What Do You Want To Work On Today?"
+        android:layout_marginTop="56dp"
+        android:layout_marginBottom="24dp"
+        android:text="@string/mainScreenWelcome"
         android:textColor="@color/white"
-        app:layout_constraintBottom_toTopOf="@+id/stretchesAndWarmups"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="85dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pickACategory">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/stretchesAndWarmups"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/stretchesAndWarmUpsCategory"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/stretches_and_warm_ups_1" />
+
+            <ImageButton
+                android:id="@+id/strengthTraining"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/strengthTrainingCategory"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/strength_training_2" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/cardio"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/cardioCategory"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/cardio_3" />
+
+            <ImageButton
+                android:id="@+id/sports"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/nutritionCategory"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/sports_4" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/mindfulnessAndMeditation"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/mindfulnessAndMeditationCategory"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/mindfulness_and_mediation_5" />
+
+            <ImageButton
+                android:id="@+id/nutrition"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/nutritionCategory"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/nutrition_6" />
+        </LinearLayout>
+    </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

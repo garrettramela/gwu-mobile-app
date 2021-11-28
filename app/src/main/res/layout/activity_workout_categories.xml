@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="56dp"
         android:layout_marginBottom="24dp"
-        android:text="@string/mainScreenWelcome"
+            android:text="@string/mainScreenWelcome"
         android:textColor="@color/white"
         android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout"
@@ -46,6 +46,7 @@
                 android:adjustViewBounds="true"
                 android:contentDescription="@string/stretchesAndWarmUpsCategory"
                 android:scaleType="centerInside"
+                android:onClick="onImageButtonClick"
                 app:srcCompat="@drawable/stretches_and_warm_ups_1" />
 
             <ImageButton
@@ -55,6 +56,7 @@
                 android:adjustViewBounds="true"
                 android:contentDescription="@string/strengthTrainingCategory"
                 android:scaleType="centerInside"
+                android:onClick="onImageButtonClick"
                 app:srcCompat="@drawable/strength_training_2" />
 
         </LinearLayout>
@@ -72,6 +74,7 @@
                 android:adjustViewBounds="true"
                 android:contentDescription="@string/cardioCategory"
                 android:scaleType="centerInside"
+                android:onClick="onImageButtonClick"
                 app:srcCompat="@drawable/cardio_3" />
 
             <ImageButton
@@ -81,6 +84,7 @@
                 android:adjustViewBounds="true"
                 android:contentDescription="@string/nutritionCategory"
                 android:scaleType="centerInside"
+                android:onClick="onImageButtonClick"
                 app:srcCompat="@drawable/sports_4" />
         </LinearLayout>
 
@@ -97,6 +101,7 @@
                 android:adjustViewBounds="true"
                 android:contentDescription="@string/mindfulnessAndMeditationCategory"
                 android:scaleType="centerInside"
+                android:onClick="onImageButtonClick"
                 app:srcCompat="@drawable/mindfulness_and_mediation_5" />
 
             <ImageButton
@@ -106,6 +111,7 @@
                 android:adjustViewBounds="true"
                 android:contentDescription="@string/nutritionCategory"
                 android:scaleType="centerInside"
+                android:onClick="onImageButtonClick"
                 app:srcCompat="@drawable/nutrition_6" />
         </LinearLayout>
     </LinearLayout>

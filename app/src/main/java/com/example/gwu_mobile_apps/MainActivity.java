@@ -14,6 +14,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        /*
         ImageButton next = (ImageButton) findViewById(R.id.wrktStartLogoButton);
         next.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
@@ -22,5 +23,15 @@ public class MainActivity extends AppCompatActivity {
             }
 
         });
+         */
+    }
+    public void welcomeScreenClick(View view) {
+        System.out.println("clicked welcome screen image button");
+        //final ImageButton welcomeButton = (ImageButton)findViewById(R.id.wrktStartLogoButton);
+
+        Intent intent = new Intent(this, Workout_Categories.class);
+        startActivity(intent);
+
     }
 }
+

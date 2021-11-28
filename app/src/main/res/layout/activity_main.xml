@@ -21,6 +21,7 @@
             android:layout_height="wrap_content"
             android:contentDescription="@string/get_started_with_wrkt"
             android:gravity="center"
+            android:onClick="welcomeScreenClick"
             app:srcCompat="@drawable/wrkt_logo" />
 
         <TextView

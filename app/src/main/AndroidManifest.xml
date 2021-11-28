@@ -10,6 +10,24 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Gwumobileapps">
         <activity
+            android:name=".Nutrition"
+            android:exported="true" />
+        <activity
+            android:name=".Mindfulness_and_Meditation"
+            android:exported="true" />
+        <activity
+            android:name=".Sports"
+            android:exported="true" />
+        <activity
+            android:name=".Cardio"
+            android:exported="true" />
+        <activity
+            android:name=".Strength_Training"
+            android:exported="true" />
+        <activity
+            android:name=".Stretching"
+            android:exported="true" />
+        <activity
             android:name=".Workout_Categories"
             android:exported="false" />
         <activity
@@ -22,4 +40,5 @@
             </intent-filter>
         </activity>
     </application>
+
 </manifest>

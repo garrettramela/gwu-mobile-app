@@ -8,38 +8,41 @@
     <string name="stretchesAndWarmUpsCategory">WRKT Stretches and Warm-Ups Category</string>
     <string name="strengthTrainingCategory">WRKT Strength Training Category</string>
     <string name="mindfulnessAndMeditationCategory">WRKT Mindfulness and Meditation Category</string>
+    <string name="backButtonLabel">Back to Categories</string>
 
 
-    <string-array name = "stretchingOptions">
-        <item><a href = "">Neck stretch</a></item>
-        <item><a href = "">Pec stretch</a></item>
-        <item><a href = "">Forward bend</a></item>
-        <item><a href = "">Seated spinal twist</a></item>
+    <string-array name="stretchingOptions">
+        <item><a href="">Neck stretch</a></item>
+        <item><a href="">Pec stretch</a></item>
+        <item><a href="">Forward bend</a></item>
+        <item><a href="">Seated spinal twist</a></item>
     </string-array>
 
-    <string-array name = "strengthOptions">
-        <item><a href = "">Workout 1</a></item>
-        <item><a href = "">Workout 2</a></item>
+    <string-array name="strengthOptions">
+        <item><a href="">Workout 1</a></item>
+        <item><a href="">Workout 2</a></item>
     </string-array>
 
-    <string-array name = "cardioOptions">
-        <item><a href = "">Cardio 1</a></item>
-        <item><a href = "">Cardio 2</a></item>
+    <string-array name="cardioOptions">
+        <item><a href="">Cardio 1</a></item>
+        <item><a href="">Cardio 2</a></item>
     </string-array>
 
-    <string-array name = "sportsOptions">
-        <item><a href = "">Sports 1</a></item>
-        <item><a href = "">Sports 2</a></item>
+    <string name="cardioOverview">Cardio is the perfect fat-burning exercise to keep your heart healthy. There are many different types of cardio such as:</string>
+
+    <string-array name="sportsOptions">
+        <item><a href="">Sports 1</a></item>
+        <item><a href="">Sports 2</a></item>
     </string-array>
 
-    <string-array name = "mindfulness_and_meditationOptions">
-        <item><a href = "">M_M 1</a></item>
-        <item><a href = "">M_M 2</a></item>
+    <string-array name="mindfulness_and_meditationOptions">
+        <item><a href="">M_M 1</a></item>
+        <item><a href="">M_M 2</a></item>
     </string-array>
 
-    <string-array name = "nutritionOptions">
-        <item><a href = "">Nutrition 1</a></item>
-        <item><a href = "">Nutrition 2</a></item>
+    <string-array name="nutritionOptions">
+        <item><a href="">Nutrition 1</a></item>
+        <item><a href="">Nutrition 2</a></item>
     </string-array>
 
 </resources>

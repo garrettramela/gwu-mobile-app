@@ -5,18 +5,11 @@
       <map>
         <entry key="..\:/Users/Garrett/StudioProjects/gwu-mobile-app/app/src/main/res/layout/activity_main.xml" value="0.490036231884058" />
         <entry key="..\:/Users/Garrett/StudioProjects/gwu-mobile-app/app/src/main/res/layout/activity_workout_categories.xml" value="0.490036231884058" />
-        <entry key="..\:/Users/ag198/OneDrive/Courses incl Runway/A Year 2/Mobile App Development/gwu-mobile-app/app/src/main/res/layout/activity_cardio.xml" value="0.13020833333333334" />
-        <entry key="..\:/Users/ag198/OneDrive/Courses incl Runway/A Year 2/Mobile App Development/gwu-mobile-app/app/src/main/res/layout/activity_main.xml" value="0.1793478260869565" />
-        <entry key="..\:/Users/ag198/OneDrive/Courses incl Runway/A Year 2/Mobile App Development/gwu-mobile-app/app/src/main/res/layout/activity_mindfulness_and_meditation.xml" value="0.13020833333333334" />
-        <entry key="..\:/Users/ag198/OneDrive/Courses incl Runway/A Year 2/Mobile App Development/gwu-mobile-app/app/src/main/res/layout/activity_nutrition.xml" value="0.11614583333333334" />
-        <entry key="..\:/Users/ag198/OneDrive/Courses incl Runway/A Year 2/Mobile App Development/gwu-mobile-app/app/src/main/res/layout/activity_sports.xml" value="0.13020833333333334" />
-        <entry key="..\:/Users/ag198/OneDrive/Courses incl Runway/A Year 2/Mobile App Development/gwu-mobile-app/app/src/main/res/layout/activity_strength_training.xml" value="0.13020833333333334" />
-        <entry key="..\:/Users/ag198/OneDrive/Courses incl Runway/A Year 2/Mobile App Development/gwu-mobile-app/app/src/main/res/layout/activity_stretching.xml" value="0.13020833333333334" />
-        <entry key="..\:/Users/ag198/OneDrive/Courses incl Runway/A Year 2/Mobile App Development/gwu-mobile-app/app/src/main/res/layout/activity_workout.xml" value="0.1793478260869565" />
-        <entry key="..\:/Users/ag198/OneDrive/Courses incl Runway/A Year 2/Mobile App Development/gwu-mobile-app/app/src/main/res/layout/activity_workout_categories.xml" value="0.1793478260869565" />
+        <entry key="app/src/main/res/layout/activity_cardio.xml" value="0.22" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.165" />
         <entry key="app/src/main/res/layout/activity_workout.xml" value="0.1527777777777778" />
         <entry key="app/src/main/res/layout/activity_workout_categories.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/stretching_warmups.xml" value="0.1" />
       </map>
     </option>
   </component>

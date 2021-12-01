@@ -6,23 +6,54 @@
     android:layout_height="match_parent"
     tools:context=".Sports">
 
-
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical" >
+        android:backgroundTint="@color/black"
+        android:orientation="vertical"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <Button
+            android:id="@+id/back_button"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:text="Back to Categories"
+            android:backgroundTint="@color/black"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20sp"
+            android:layout_marginBottom="20sp"/>
+
+        <ImageView
+            android:id="@+id/sportsImage"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20sp"
+            app:srcCompat="@drawable/sports_4" />
 
         <TextView
-            android:layout_width="wrap_content"
+            android:id="@+id/sportsOverview"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="You have entered the Strength Training class\n
-            Click on an item below to learn how to work out with weights" />
+            android:layout_gravity="center_horizontal"
+            android:textSize="25dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:text="@string/sportsOverview" />
 
         <ListView
-            android:layout_width="wrap_content"
+            android:id="@+id/sportsOptions"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/listView"
+            android:layout_gravity="center_horizontal"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
             android:entries="@array/sportsOptions" />
 
     </LinearLayout>

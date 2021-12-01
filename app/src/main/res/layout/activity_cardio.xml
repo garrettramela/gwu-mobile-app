@@ -47,7 +47,7 @@
             android:layout_marginBottom="20dp"
             android:text="@string/cardioOverview" />
 
-        <TextView
+        <ListView
             android:id="@+id/listView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

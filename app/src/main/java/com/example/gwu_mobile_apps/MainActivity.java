@@ -14,24 +14,13 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        /*
-        ImageButton next = (ImageButton) findViewById(R.id.wrktStartLogoButton);
-        next.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View view) {
-                Intent myIntent = new Intent(view.getContext(), Workout_Categories.class);
-                startActivityForResult(myIntent, 0);
-            }
-
-        });
-         */
     }
     public void welcomeScreenClick(View view) {
         System.out.println("clicked welcome screen image button");
-        //final ImageButton welcomeButton = (ImageButton)findViewById(R.id.wrktStartLogoButton);
+        // final ImageButton welcomeButton = (ImageButton)findViewById(R.id.wrktStartLogoButton);
 
         Intent intent = new Intent(this, Workout_Categories.class);
         startActivity(intent);
-
     }
 }
 

@@ -57,8 +57,5 @@
             android:layout_marginBottom="20dp"
             android:text="-Dynamic Stretching \n-Static Stretching \n-Proprioceptive Neuromuscular Facilitation (PNF) Stretching \n-Low Intensity Warm Ups \n-Mid-Intensity Warm Ups" />
 
-
-
-
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

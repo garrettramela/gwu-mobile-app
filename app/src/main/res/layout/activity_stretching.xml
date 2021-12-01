@@ -9,20 +9,52 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical" >
+        android:backgroundTint="@color/black"
+        android:orientation="vertical"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <Button
+            android:id="@+id/back_button"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:text="Back to Categories"
+            android:backgroundTint="@color/black"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20sp"
+            android:layout_marginBottom="20sp"/>
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20sp"
+            app:srcCompat="@drawable/stretches_and_warm_ups_1" />
 
         <TextView
-            android:layout_width="wrap_content"
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="You have entered the Stretching Learning Zone\n
-            Click on an item below to learn what stretches to do to combat the bad results of working" />
+            android:layout_gravity="center_horizontal"
+            android:textSize="25dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:text="Stretching and warming up are critical to the overall success of any workout. There are many different types of stretching such as:" />
 
         <ListView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
             android:id="@+id/listView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
             android:entries="@array/stretchingOptions" />
 
     </LinearLayout>
-
 </androidx.constraintlayout.widget.ConstraintLayout>

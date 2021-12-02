@@ -19,7 +19,7 @@
             android:id="@+id/back_button"
             android:layout_width="350dp"
             android:layout_height="wrap_content"
-            android:text="Back to Categories"
+            android:text="@string/backButtonLabel"
             android:backgroundTint="@color/black"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="20sp"
@@ -31,14 +31,15 @@
             android:layout_height="250dp"
             android:layout_gravity="center_horizontal"
             android:layout_marginBottom="20sp"
-            app:srcCompat="@drawable/mindfulness_and_mediation_5" />
+            app:srcCompat="@drawable/mindfulness_and_mediation_5"
+            android:contentDescription="@string/mindfulnessAndMeditationCategory" />
 
         <TextView
             android:id="@+id/textView2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:textSize="25dp"
+            android:textSize="25sp"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
             android:layout_marginBottom="20dp"
@@ -50,7 +51,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:textStyle="bold"
-            android:textSize="25dp"
+            android:textSize="25sp"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
             android:layout_marginBottom="20dp"

@@ -3,18 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Garrett/StudioProjects/gwu-mobile-app/app/src/main/res/layout/activity_cardio.xml" value="0.5453125" />
         <entry key="..\:/Users/Garrett/StudioProjects/gwu-mobile-app/app/src/main/res/layout/activity_main.xml" value="0.490036231884058" />
-        <entry key="..\:/Users/Garrett/StudioProjects/gwu-mobile-app/app/src/main/res/layout/activity_workout_categories.xml" value="0.490036231884058" />
-        <entry key="app/src/main/res/layout/activity_cardio.xml" value="0.22" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.165" />
-        <entry key="app/src/main/res/layout/activity_mindfulness_and_meditation.xml" value="0.2453125" />
-        <entry key="app/src/main/res/layout/activity_nutrition.xml" value="0.2453125" />
-        <entry key="app/src/main/res/layout/activity_sports.xml" value="0.2453125" />
-        <entry key="app/src/main/res/layout/activity_strength_training.xml" value="0.2453125" />
-        <entry key="app/src/main/res/layout/activity_stretching.xml" value="0.2453125" />
-        <entry key="app/src/main/res/layout/activity_workout.xml" value="0.1527777777777778" />
-        <entry key="app/src/main/res/layout/activity_workout_categories.xml" value="0.25" />
-        <entry key="app/src/main/res/layout/stretching_warmups.xml" value="0.1" />
+        <entry key="..\:/Users/Garrett/StudioProjects/gwu-mobile-app/app/src/main/res/layout/activity_strength_training.xml" value="0.453125" />
+        <entry key="..\:/Users/Garrett/StudioProjects/gwu-mobile-app/app/src/main/res/layout/activity_workout_categories.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.26721014492753625" />
       </map>
     </option>
   </component>

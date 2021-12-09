@@ -31,7 +31,7 @@
             android:layout_height="250dp"
             android:layout_gravity="center_horizontal"
             android:layout_marginBottom="20sp"
-            app:srcCompat="@drawable/stretches_and_warm_ups_1"
+            app:srcCompat="@drawable/strength_training_2"
             android:contentDescription="@string/strengthTrainingCategory" />
 
         <TextView
@@ -43,7 +43,7 @@
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
             android:layout_marginBottom="20dp"
-            android:text="@string/stretchingOverview" />
+            android:text="@string/strengthOverview" />
 
         <ListView
             android:id="@+id/strengthOptions"

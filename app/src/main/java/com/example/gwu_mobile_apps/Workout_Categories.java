@@ -32,39 +32,45 @@ public class Workout_Categories extends AppCompatActivity {
         int id = view.getId(); //this is the desired action
         Intent intent = null;
         switch (id) {
-            case R.id.stretchesAndWarmups:
-                //debug statement
-                Toast.makeText(getApplicationContext(), "Clicked Stretching", Toast.LENGTH_SHORT).show();
+            case R.id.stretchesAndWarmups: // Stretches and warm-ups toast message
+                Toast.makeText(getApplicationContext(),
+                        R.string.toastStretchingAndWarmUps,
+                        Toast.LENGTH_SHORT).show();
                 intent = new Intent(this, Stretching.class); //later will update this to say stretching.class
                 startActivity(intent);
                 break;
-            case R.id.strengthTraining:
-                //debug statement
-                Toast.makeText(getApplicationContext(), "Clicked Strength Training", Toast.LENGTH_SHORT).show();
+            case R.id.strengthTraining: // Strength training toast message
+                Toast.makeText(getApplicationContext(),
+                        R.string.toastStrengthTraining,
+                        Toast.LENGTH_SHORT).show();
                 intent = new Intent(this, Strength_Training.class);
                 startActivity(intent);
                 break;
-            case R.id.cardio:
-                //debug statement
-                Toast.makeText(getApplicationContext(), "Clicked Strength Training", Toast.LENGTH_SHORT).show();
+            case R.id.cardio: // Cardio toast message
+                Toast.makeText(getApplicationContext(),
+                        R.string.toastCardio,
+                        Toast.LENGTH_SHORT).show();
                 intent = new Intent(this, Cardio.class);
                 startActivity(intent);
                 break;
-            case R.id.sports:
-                //debug statement
-                Toast.makeText(getApplicationContext(), "Clicked Strength Training", Toast.LENGTH_SHORT).show();
+            case R.id.sports: // Sports toast message
+                Toast.makeText(getApplicationContext(),
+                        R.string.toastSports,
+                        Toast.LENGTH_SHORT).show();
                 intent = new Intent(this, Sports.class);
                 startActivity(intent);
                 break;
-            case R.id.mindfulnessAndMeditation:
-                //debug statement
-                Toast.makeText(getApplicationContext(), "Clicked Strength Training", Toast.LENGTH_SHORT).show();
+            case R.id.mindfulnessAndMeditation: // Mindfulness and meditation toast message
+                Toast.makeText(getApplicationContext(),
+                        R.string.toastMindfulnessAndMeditation,
+                        Toast.LENGTH_SHORT).show();
                 intent = new Intent(this, Mindfulness_and_Meditation.class);
                 startActivity(intent);
                 break;
-            case R.id.nutrition:
-                //debug statement
-                Toast.makeText(getApplicationContext(), "Clicked Strength Training", Toast.LENGTH_SHORT).show();
+            case R.id.nutrition: // Nutrition toast message
+                Toast.makeText(getApplicationContext(),
+                        R.string.toastNutrition,
+                        Toast.LENGTH_SHORT).show();
                 intent = new Intent(this, Nutrition.class);
                 startActivity(intent);
                 break;
